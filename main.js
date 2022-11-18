@@ -7,6 +7,20 @@ for (var i = 0; i < panel.length; i++) {
     this.className += " active";
     });
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 // .forEach(item => {
 //     item.addEventListener('click', e =>{
 //        let current = document.getElementsByClassName("active");

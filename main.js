@@ -1,4 +1,3 @@
-// let activeClass = document.querySelector('.active')
 let panel = document.querySelectorAll('.panel')
 for (var i = 0; i < panel.length; i++) {
     panel[i].addEventListener("click", function() {
@@ -20,15 +19,14 @@ for (var i = 0; i < panel.length; i++) {
 
 
 
-  
-// .forEach(item => {
+
+//==FAIL try with forEach and arrowFunction==
+//===========================================
+// let panel = document.querySelectorAll('.panel')
+// panel.forEach(item => {
 //     item.addEventListener('click', e =>{
 //        let current = document.getElementsByClassName("active");
-        // item.classList.toggle("active")
-        // current[0].className = current[0].className.replace("active", "");
-        // this.className += "active";
-
-
-
-    // })
+//         current[0].className = current[0].className.replace("active", "");
+//         this.className += "active";
+//     })
 // });

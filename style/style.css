@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    margin: 70px;
+
+}
+
+.panel {
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    height: 80vh;
+    /* width: 12%; */
+    margin: 10px;
+    border-radius: 50px;
+    color: transparent;
+    transition-duration: 2s;
+}
+.active{
+    transition: ease-in;
+    width: 500px;
+    margin-left: 20px;
+    color: white
+}
+h3{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
